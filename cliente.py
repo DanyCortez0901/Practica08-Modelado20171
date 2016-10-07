@@ -5,6 +5,8 @@ class interfaz_cliente(QtGui.QMainWindow):
     def __init__(self):
         super(interfaz_cliente, self).__init__()
         uic.loadUi('cliente.ui', self)
+    	self.tableWidget.horizontalHeader().setStretchLastSection(True)
+        self.tableWidget.verticalHeader().setStretchLastSection(True)
         self.tableWidget.horizontalHeader().setResizeMode(QtGui.QHeaderView.Stretch)
         self.tableWidget.verticalHeader().setResizeMode(QtGui.QHeaderView.Stretch)
         self.show()

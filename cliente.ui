@@ -158,10 +158,10 @@
          <enum>Qt::ScrollBarAlwaysOff</enum>
         </property>
         <property name="rowCount">
-         <number>38</number>
+         <number>25</number>
         </property>
         <property name="columnCount">
-         <number>46</number>
+         <number>25</number>
         </property>
         <attribute name="horizontalHeaderVisible">
          <bool>false</bool>
@@ -173,7 +173,7 @@
          <bool>false</bool>
         </attribute>
         <attribute name="horizontalHeaderMinimumSectionSize">
-         <number>20</number>
+         <number>0</number>
         </attribute>
         <attribute name="verticalHeaderVisible">
          <bool>false</bool>
@@ -185,7 +185,7 @@
          <bool>false</bool>
         </attribute>
         <attribute name="verticalHeaderMinimumSectionSize">
-         <number>20</number>
+         <number>0</number>
         </attribute>
         <row>
          <property name="text">
@@ -284,19 +284,6 @@
         <row/>
         <row/>
         <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
         <column>
          <property name="text">
           <string>New Column</string>
@@ -422,31 +409,6 @@
           <string>New Column</string>
          </property>
         </column>
-        <column>
-         <property name="text">
-          <string>New Column</string>
-         </property>
-        </column>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
-        <column/>
        </widget>
       </item>
      </layout>
